@@ -1,0 +1,222 @@
+﻿生成启动时间为 2014/2/19 13:45:48。
+     1>项目“E:\c\osg\2014\Step13\Step13.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Step13.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FeatureDetector.cpp MeshData.cpp MyDoc.cpp
+         MyDoc.cpp
+     1>e:\c\osg\2014\step13\mydoc.cpp(129): error C2086: “int i”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(121) : 参见“i”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(182): error C2086: “int vertex_N”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(113) : 参见“vertex_N”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(183): error C2086: “int face_N”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(113) : 参见“face_N”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(185): error C2086: “int i”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(121) : 参见“i”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(196): error C2086: “int i”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(121) : 参见“i”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(204): error C2086: “int i”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(121) : 参见“i”的声明
+     1>e:\c\osg\2014\step13\mydoc.cpp(211): error C2086: “int i”: 重定义
+                 e:\c\osg\2014\step13\mydoc.cpp(121) : 参见“i”的声明
+         MeshData.cpp
+     1>e:\c\osg\2014\step13\meshdata.h(278): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.h(279): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(244): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(245): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(246): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(362): error C2440: “=”: 无法从“bool *”转换为“int *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>e:\c\osg\2014\step13\meshdata.cpp(553): error C2440: “=”: 无法从“bool *”转换为“int *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>e:\c\osg\2014\step13\meshdata.cpp(567): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(571): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(574): error C2065: “TRUE”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(576): error C2065: “FALSE”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(581): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(584): error C2065: “FALSE”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(592): error C2065: “FALSE”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\meshdata.cpp(1587): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+     1>e:\c\osg\2014\step13\meshdata.cpp(1588): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1588): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\meshdata.cpp(1589): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1589): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\meshdata.cpp(1589): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+     1>e:\c\osg\2014\step13\meshdata.cpp(1590): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(1590): error C2227: “->f”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\meshdata.cpp(1940): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(2139): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(2140): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(2141): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7330): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7331): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7332): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7440): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7441): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7442): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7443): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7444): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7445): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7446): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7447): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7448): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7450): error C2653: “SVD”: 不是类或命名空间名称
+     1>e:\c\osg\2014\step13\meshdata.cpp(7450): error C3861: “svdcmp”: 找不到标识符
+     1>e:\c\osg\2014\step13\meshdata.cpp(7521): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7522): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.cpp(7523): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         FeatureDetector.cpp
+     1>e:\c\osg\2014\step13\meshdata.h(278): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\meshdata.h(279): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(791): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(792): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(792): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(803): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(804): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(804): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(805): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(805): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(892): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(893): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(893): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(894): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(894): error C2227: “->f”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(900): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(901): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(901): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(914): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(915): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(915): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(921): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(922): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(922): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(924): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(924): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(925): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(925): error C2227: “->f”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(931): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(932): error C2065: “c”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(932): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(1926): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(1926): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(1926): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(1927): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3003): error C2065: “i”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3680): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3680): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3681): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3682): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3683): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3701): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3701): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3702): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3703): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(3704): error C2065: “j”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4101): error C2065: “i”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4128): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4129): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4129): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4130): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4130): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4135): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4136): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4136): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4137): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4137): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4143): error C2065: “current”: 未声明的标识符
+     1>e:\c\osg\2014\step13\featuredetector.cpp(4143): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“E:\c\osg\2014\Step13\Step13.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.16

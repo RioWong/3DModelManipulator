@@ -1,0 +1,34 @@
+﻿生成启动时间为 2014/2/15 16:03:40。
+     1>项目“E:\c\osg\2014\ModelEditor\ModelEditor.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ModelEditor.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ModelEditor.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ModelEditor.cpp ModelEditorDoc.cpp ModelEditorView.cpp
+         ModelEditor.cpp
+         ModelEditorDoc.cpp
+         ModelEditorView.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c\osg\2014\ModelEditor\Release\ModelEditor.exe" /INCREMENTAL:NO /NOLOGO OpenThreads.lib osg.lib osgDB.lib osgFX.lib osgGA.lib osgManipulator.lib osgShadow.lib osgSim.lib osgTerrain.lib osgText.lib osgUtil.lib osgViewer.lib /MANIFEST /ManifestFile:"Release\ModelEditor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\c\osg\2014\ModelEditor\Release\ModelEditor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c\osg\2014\ModelEditor\Release\ModelEditor.lib" /MACHINE:X86 Release\ModelEditor.res
+         Release\MainFrm.obj
+         Release\ModelEditor.obj
+         Release\ModelEditorDoc.obj
+         Release\ModelEditorView.obj
+         Release\OutputWnd.obj
+         Release\PropertiesWnd.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         ModelEditor.vcxproj -> E:\c\osg\2014\ModelEditor\Release\ModelEditor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\c\osg\2014\ModelEditor\Release\ModelEditor.exe;#1" /manifest Release\ModelEditor.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ModelEditor.unsuccessfulbuild”。
+         正在对“Release\ModelEditor.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\c\osg\2014\ModelEditor\ModelEditor.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.79
